@@ -1,6 +1,8 @@
 # RevealForward
 不在一个局域网下使用Reveal查看界面结构
 
+(not in the same local area network uses Reveal)
+
 # Usage
 
 ### Install deb
