@@ -1,0 +1,2 @@
+# RevealForward
+不在一个局域网下使用Reveal查看界面结构
