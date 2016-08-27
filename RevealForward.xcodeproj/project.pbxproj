@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0CA6B01D703E860026F432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0CA6AF1D703E860026F432 /* Foundation.framework */; };
+		8C0CA6BA1D703E860026F432 /* RevealForward.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CA6B91D703E860026F432 /* RevealForward.mm */; };
+		8C0CA6CA1D703EE00026F432 /* BonjourManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0CA6C41D703EE00026F432 /* BonjourManager.h */; };
+		8C0CA6CB1D703EE00026F432 /* BonjourManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CA6C51D703EE00026F432 /* BonjourManager.m */; };
+		8C0CA6CC1D703EE00026F432 /* BonjourUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0CA6C61D703EE00026F432 /* BonjourUtils.h */; };
+		8C0CA6CD1D703EE00026F432 /* BonjourUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CA6C71D703EE00026F432 /* BonjourUtils.m */; };
+		8C0CA6CE1D703EE00026F432 /* Bonjour.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0CA6C81D703EE00026F432 /* Bonjour.h */; };
+		8C0CA6CF1D703EE00026F432 /* Bonjour.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C0CA6C91D703EE00026F432 /* Bonjour.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C0CA6AC1D703E860026F432 /* RevealForward.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = RevealForward.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0CA6AF1D703E860026F432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C0CA6B41D703E860026F432 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		8C0CA6B51D703E860026F432 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		8C0CA6B71D703E860026F432 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		8C0CA6B81D703E860026F432 /* RevealForward-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevealForward-Prefix.pch"; sourceTree = "<group>"; };
+		8C0CA6B91D703E860026F432 /* RevealForward.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RevealForward.mm; sourceTree = "<group>"; };
+		8C0CA6BE1D703E860026F432 /* RevealForward.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RevealForward.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/RevealForward.plist; sourceTree = "<group>"; };
+		8C0CA6C41D703EE00026F432 /* BonjourManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourManager.h; sourceTree = "<group>"; };
+		8C0CA6C51D703EE00026F432 /* BonjourManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourManager.m; sourceTree = "<group>"; };
+		8C0CA6C61D703EE00026F432 /* BonjourUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourUtils.h; sourceTree = "<group>"; };
+		8C0CA6C71D703EE00026F432 /* BonjourUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourUtils.m; sourceTree = "<group>"; };
+		8C0CA6C81D703EE00026F432 /* Bonjour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bonjour.h; sourceTree = "<group>"; };
+		8C0CA6C91D703EE00026F432 /* Bonjour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bonjour.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0CA6A81D703E860026F432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CA6B01D703E860026F432 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0CA6A21D703E860026F432 = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6B11D703E860026F432 /* RevealForward */,
+				8C0CA6AE1D703E860026F432 /* Frameworks */,
+				8C0CA6AD1D703E860026F432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C0CA6AD1D703E860026F432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6AC1D703E860026F432 /* RevealForward.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C0CA6AE1D703E860026F432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6AF1D703E860026F432 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C0CA6B11D703E860026F432 /* RevealForward */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6C41D703EE00026F432 /* BonjourManager.h */,
+				8C0CA6C51D703EE00026F432 /* BonjourManager.m */,
+				8C0CA6C61D703EE00026F432 /* BonjourUtils.h */,
+				8C0CA6C71D703EE00026F432 /* BonjourUtils.m */,
+				8C0CA6C81D703EE00026F432 /* Bonjour.h */,
+				8C0CA6C91D703EE00026F432 /* Bonjour.m */,
+				8C0CA6B91D703E860026F432 /* RevealForward.mm */,
+				8C0CA6B21D703E860026F432 /* Package */,
+				8C0CA6B61D703E860026F432 /* Supporting Files */,
+			);
+			path = RevealForward;
+			sourceTree = "<group>";
+		};
+		8C0CA6B21D703E860026F432 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6B31D703E860026F432 /* DEBIAN */,
+				8C0CA6BB1D703E860026F432 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		8C0CA6B31D703E860026F432 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6B41D703E860026F432 /* control.txt */,
+				8C0CA6B51D703E860026F432 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		8C0CA6B61D703E860026F432 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6B71D703E860026F432 /* PackageVersion.plist */,
+				8C0CA6B81D703E860026F432 /* RevealForward-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C0CA6BB1D703E860026F432 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6BC1D703E860026F432 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		8C0CA6BC1D703E860026F432 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6BD1D703E860026F432 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		8C0CA6BD1D703E860026F432 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				8C0CA6BE1D703E860026F432 /* RevealForward.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C0CA6A91D703E860026F432 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CA6CE1D703EE00026F432 /* Bonjour.h in Headers */,
+				8C0CA6CC1D703EE00026F432 /* BonjourUtils.h in Headers */,
+				8C0CA6CA1D703EE00026F432 /* BonjourManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C0CA6AB1D703E860026F432 /* RevealForward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0CA6C11D703E860026F432 /* Build configuration list for PBXNativeTarget "RevealForward" */;
+			buildPhases = (
+				8C0CA6A71D703E860026F432 /* Sources */,
+				8C0CA6A81D703E860026F432 /* Frameworks */,
+				8C0CA6A91D703E860026F432 /* Headers */,
+				8C0CA6AA1D703E860026F432 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealForward;
+			productName = RevealForward;
+			productReference = 8C0CA6AC1D703E860026F432 /* RevealForward.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0CA6A31D703E860026F432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					8C0CA6AB1D703E860026F432 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C0CA6A61D703E860026F432 /* Build configuration list for PBXProject "RevealForward" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C0CA6A21D703E860026F432;
+			productRefGroup = 8C0CA6AD1D703E860026F432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C0CA6AB1D703E860026F432 /* RevealForward */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C0CA6AA1D703E860026F432 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0CA6A71D703E860026F432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0CA6BA1D703E860026F432 /* RevealForward.mm in Sources */,
+				8C0CA6CB1D703EE00026F432 /* BonjourManager.m in Sources */,
+				8C0CA6CD1D703EE00026F432 /* BonjourUtils.m in Sources */,
+				8C0CA6CF1D703EE00026F432 /* Bonjour.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C0CA6BF1D703E860026F432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		8C0CA6C01D703E860026F432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		8C0CA6C21D703E860026F432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealForward/RevealForward-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 127.0.0.1;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		8C0CA6C31D703E860026F432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RevealForward/RevealForward-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = 127.0.0.1;
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0CA6A61D703E860026F432 /* Build configuration list for PBXProject "RevealForward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CA6BF1D703E860026F432 /* Debug */,
+				8C0CA6C01D703E860026F432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0CA6C11D703E860026F432 /* Build configuration list for PBXNativeTarget "RevealForward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0CA6C21D703E860026F432 /* Debug */,
+				8C0CA6C31D703E860026F432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0CA6A31D703E860026F432 /* Project object */;
+}
